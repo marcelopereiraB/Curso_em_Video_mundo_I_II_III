@@ -1,0 +1,6 @@
+n1 = int(input('digite um valor: '))
+n2 = int(input('digite outro valor: '))
+n5 = int(n1 + n2)
+n3 = int(n5 + 1)
+n4 = int(n5 - 1)
+print(' O valor da soma é {} \n Seu sucessor é {} \n e Antecessor é {}'.format(n5,n3,n4))

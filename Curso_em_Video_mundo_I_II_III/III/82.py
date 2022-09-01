@@ -9,11 +9,13 @@ while True:
     else:
         impares.append(nu)
     r = str(input('quer continuar? [S/N] ')).strip()[0]
-    while r not in 'SsNn':
-        r = str(input(('dados invalidos, digite novamente: [S/N] ')))
     if r in 'Nn':
         print('Obrigado')
         break
+    while r not in 'SsNn':
+        r = str(input(('dados invalidos, digite novamente: [S/N] ')))
+
+
 print(f'a lista completa é {sorted(lista)}')
 print(f'a lista de pares é {sorted(pares)}')
 print(f'sua lista de impares é {sorted(impares)}')
