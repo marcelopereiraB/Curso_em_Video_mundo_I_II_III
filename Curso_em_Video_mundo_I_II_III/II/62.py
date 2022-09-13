@@ -13,10 +13,3 @@ while mais != 0:
     print('pausa')
     mais = int(input('quantos termos voce quer mostar a mais? '))
 print(f'progreção finalizada com {total} termos')
-
-
-
-
-
-
-

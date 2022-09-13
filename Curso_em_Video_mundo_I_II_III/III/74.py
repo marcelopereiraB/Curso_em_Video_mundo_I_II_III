@@ -33,25 +33,6 @@ for n in v:
 print(f'\nO maior valor sorteado foi {max(v)}')
 print(f'O menor valor sorteado foi {min(v)}')
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     #if v[0] > v[1]:
         #print(f'O menor valor sorteado foi {v[0]}')
     #elif v[0] > v[2]:

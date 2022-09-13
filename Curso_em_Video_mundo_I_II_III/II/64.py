@@ -5,5 +5,3 @@ while n != 999:
         contador += 1
         somar += n
 print(f'vc digitou {contador} numeros e a soma deles é {somar}')
-
-

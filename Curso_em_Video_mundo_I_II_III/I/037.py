@@ -12,5 +12,3 @@ if pc == numero:
 else:
     print('tu errou tente novamente!')
     print('o numero escolhido foi {}'.format(pc))
-
-

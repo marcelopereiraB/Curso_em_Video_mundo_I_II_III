@@ -7,4 +7,3 @@ print(lista)
 
 print(f'O maior valor digitado foi {max(lista)} na posição {mi}...')
 print(f'O menor valor digitado foi {min(lista)} na posição {ma}...')
-

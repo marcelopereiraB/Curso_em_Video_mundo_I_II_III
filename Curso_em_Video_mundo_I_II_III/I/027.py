@@ -9,6 +9,3 @@ ca = float(input('qual é o valor do cateto oposto: '))
 co = float(input('qual é o valor do cateto adjacente: '))
 hi = hypot(ca, co)
 print('o valor da hipotenusa é {:.2f}'.format(hi))
-
-
-

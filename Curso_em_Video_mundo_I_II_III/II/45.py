@@ -22,4 +22,3 @@ elif n == 'PAPEL' and brink == 'PEDRA':
     print('VOCE GANHOU LLKKKK')
 print(f'VC {n} o oponete {brink}')
 print('fim de jogo!')
-

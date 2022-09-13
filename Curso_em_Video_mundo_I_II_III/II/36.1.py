@@ -9,4 +9,3 @@ elif nome in 'Ana caludia jesica  juliana':
 else:
     print('seu nome é bem normal')
 print('bom dia')
-

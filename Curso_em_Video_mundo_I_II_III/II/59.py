@@ -27,4 +27,3 @@ while v != 5:
         print('obrigado, volte sempre!!!')
     else:
         print('opção invalida. tente novamente')
-

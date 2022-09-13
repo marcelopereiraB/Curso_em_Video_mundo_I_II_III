@@ -1,4 +1,3 @@
-tabu = 0
 while True:
     nu = int(input('digite um numero para fazermos sua tabuada: '))
     if nu < 0:

@@ -8,5 +8,3 @@ g = n // n1
 j = n % n1
 print('A soma vale {}, \n o produto é {} e a divisão é {:.3f}'.format(s,m,d),end=' ')
 print('A potencia é {}, o inteiro {} e o resto da divisão {}'.format(p,g,j))
-
-

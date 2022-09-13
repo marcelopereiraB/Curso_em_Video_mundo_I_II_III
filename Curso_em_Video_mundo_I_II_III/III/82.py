@@ -19,7 +19,3 @@ while True:
 print(f'a lista completa é {sorted(lista)}')
 print(f'a lista de pares é {sorted(pares)}')
 print(f'sua lista de impares é {sorted(impares)}')
-
-
-
-

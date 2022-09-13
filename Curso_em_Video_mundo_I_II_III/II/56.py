@@ -20,5 +20,3 @@ mediaidade = somaidade / 4
 print(f'A media de idade do grupo é de {mediaidade}')
 print(f'O homem mais velho tem {maioridadehomem} e se chama {nomevelho}.')
 print(f'são {mulher20} mulheres com menos de 20 anos')
-
-

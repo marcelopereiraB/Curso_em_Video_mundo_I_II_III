@@ -1,23 +1,18 @@
 from random import randint
 from time import sleep
-joga = {'jogador 1': randint(1, 7),
-        'jogador 2': randint(1, 7),
-        'jogador 3': randint(1, 7),
-        'jogador 4': randint(1, 7)}
+from operator import itemgetter
+joga = {'jogador 1': randint(1, 6),
+        'jogador 2': randint(1, 6),
+        'jogador 3': randint(1, 6),
+        'jogador 4': randint(1, 6)}
+ranking = list()
 print('valores sorteados:')
-maior = joga['jogador 1']
-print(f' o jogador1 tirou {maior}')
-if joga['jogador 1'] <= joga['jogador 2'] >= joga['jogador 3'] and joga['jogador 2'] >= joga['jogador 4']:
-    maior = joga['jogador 2']
-print(f' o jogador2 tirou {maior}')
-if joga['jogador 1'] <= joga['jogador 3'] >= joga['jogador 2'] and joga['jogador 3'] >= joga['jogador 4']:
-    maior = joga['jogador 3']
-print(f' o jogador3 tirou {maior}')
-if joga['jogador 2'] <= joga['jogador 4'] >= joga['jogador 3'] and joga['jogador 4'] >= joga['jogador 1']:
-    maior = joga['jogador 4']
-print(f' o jogador4 tirou {maior}')
-
-
-
-
-
+for k, v in joga.items():
+    print(f'{k} tirou {v}')
+    sleep(1)
+ranking = sorted(joga.items(), key=itemgetter(1), reverse=True)
+print('-='*25)
+print('  == Ranking dos jogadores ==')
+for i, v in enumerate(ranking):
+    print(f'{i+1} lugar {v[0]} com {v[1]}.')
+    sleep(1)

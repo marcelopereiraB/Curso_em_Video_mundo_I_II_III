@@ -22,7 +22,3 @@ while total <= sort:
 for i, l in enumerate(jogos):
     print(f'jogo {i}: {l}')
     sleep(1)
-
-
-
-

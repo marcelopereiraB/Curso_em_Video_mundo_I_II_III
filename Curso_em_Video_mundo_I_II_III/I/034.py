@@ -8,4 +8,3 @@ print('sua primeira posição:', frase.find('A'))
 print('a ultima letra A apareceu na posição {}'.format(frase.rfind('A')))
 z = frase
 print(z)
-

@@ -6,4 +6,3 @@ for c in range(1, 7):
         soma += name
         contador += + 1
 print(f'voce adicionou {contador} numeros pares, e a soma deles é {soma}')
-

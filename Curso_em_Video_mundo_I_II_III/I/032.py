@@ -62,5 +62,3 @@ print('I am Iron man' in frase)
 frase = 'I am Iron man bitch'
 yu = frase.split()
 print(yu[2][1])
-
-

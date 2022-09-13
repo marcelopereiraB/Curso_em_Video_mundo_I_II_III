@@ -11,7 +11,3 @@ for c in range(1, 8):
         contador2 += 1
 print(f'{contador1} pessoas atingiram a maior idade')
 print(f'{contador2} pessoas não atingiram a maior idade')
-
-
-
-

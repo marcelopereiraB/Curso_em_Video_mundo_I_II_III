@@ -11,10 +11,3 @@ print(f'Oso numeros ímpares digitados foram: {sorted(nu[1])}')
 #poderia usar o sort assim
 '''nu[0].sort()
 nu[1].sort()'''
-
-
-
-
-
-
-

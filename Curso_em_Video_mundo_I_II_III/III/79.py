@@ -12,4 +12,3 @@ while True:
         break
 numeros.sort()
 print(f'você digitou o valo {numeros}')
-

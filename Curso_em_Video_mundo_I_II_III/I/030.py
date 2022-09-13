@@ -7,4 +7,3 @@ lista = [name1, name2, name3, name4]
 shuffle(lista)
 print(' a ordem da lista sera ')
 print(lista)
-

@@ -16,4 +16,3 @@ name4 = str(input('Quarto aluno: '))
 lista = [name, name2, name3, name4]
 escolhido = choice(lista)
 print('o escolhido foi {}'.format(escolhido))
-
