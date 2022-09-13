@@ -30,7 +30,6 @@ for p in lista:
     if p['sexo'] in 'fF':
         print(f'{p["nome"]}', end='. ')
 print()
-
 print('- listas das pessoas que estão acima da média:')
 for p in lista:
     if p['idade'] > media:
