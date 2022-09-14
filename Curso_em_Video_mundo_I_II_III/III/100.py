@@ -1,11 +1,15 @@
 from random import randint
-nunu = []
+from time import sleep
 
 
-def sorteio(nu):
-    números = [randint(0, 20), randint(10, 30), randint(20, 40), randint(40, 60), randint(10, 30)]
-
-    nu.append(números[:])
+def sorteio(lista):
+    print('sorteando 5 valores da lista: ', end='')
+    for cont in range(0, 5):
+        n = randint(1, 10)
+        lista.append(n)
+        print(f'{n} ', end='')
+        sleep(0.3)
+    print('PRONTO!')
 
 
 def somaPar(a):
@@ -13,9 +17,10 @@ def somaPar(a):
     for c in a:
         if c % 2 == 0:
             soma += c
-    print(soma)
-    print(a)
+    print(f'A somando todos os valores pares da lista {a}, o resultado é {soma}')
 
 
-sorteio(nunu)
-somaPar(nunu)
+list = list()
+sorteio(list)
+somaPar(list)
+
