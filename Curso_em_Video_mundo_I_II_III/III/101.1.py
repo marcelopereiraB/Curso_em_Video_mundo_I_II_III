@@ -89,3 +89,21 @@ if r:
     print('parabnes')
 else:
     print('não foi dessa vez')
+
+
+# escopo de importação de biblioteca, economiza memoria
+
+
+    def voto(nas=0):
+        from datetime import date
+        data = date.today().year - nas
+        if 18 <= data < 70:
+            print(f'Com {data} o voto é Obrigatorio.')
+        elif 16 <= data < 18:
+            print(f'com {data} o voto é Opcional')
+        elif data < 16:
+            print(f'com {data} não pode votar!')
+        else:
+            print(f'com {data} o voto é Opcional')
+
+#valor literal == return
