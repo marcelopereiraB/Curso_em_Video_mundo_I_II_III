@@ -49,4 +49,4 @@ def resumo(valor, porcent1, porcent2, geral=False):
     print(f'Metade do preço: \t{metade(valor, geral)}')
     print(f'{porcent1:.0f}% de aumento:  \t{aumentar(valor, porcent1, geral)}')
     print(f'{porcent2:.0f}% de redução:  \t{diminuir(valor, porcent2, geral)}')
-    print('-' * 27)
+    print('-' * 28)
