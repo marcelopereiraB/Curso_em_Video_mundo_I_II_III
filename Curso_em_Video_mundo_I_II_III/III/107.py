@@ -1,4 +1,4 @@
-from III.Modulos import moeda
+from utilidadesCeV import moeda
 
 valor = float(input('qual é o valor para os demais calculos: '))
 por = float(input('digite quantos porcentos quer tirar do seu valor: '))

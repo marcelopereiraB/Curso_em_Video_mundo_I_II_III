@@ -37,14 +37,16 @@ def moeda(v=0, moeda='R$'):
 
 
 def linha(msg):
-    tam = len(msg) + 10
+    tam = len(msg) + 12
     print('-' * tam)
     print(f'{msg:>20}')
     print('-' * tam)
 
 
 def resumo(valor, porcent1, porcent2, geral=False):
-    print(f'Dobro do preço:  {dobro(valor, geral):>7}')
-    print(f'Metade do preço: {metade(valor, geral):>7}')
-    print(f'{porcent1:.0f}% de aumento:  {aumentar(valor, porcent1, geral):>7}')
-    print(f'{porcent2:.0f}% de redução:  {diminuir(valor, porcent2, geral):>7}')
+    linha('RESUMO DO VALOR')
+    print(f'Dobro do preço:  \t{dobro(valor, geral)}')
+    print(f'Metade do preço: \t{metade(valor, geral)}')
+    print(f'{porcent1:.0f}% de aumento:  \t{aumentar(valor, porcent1, geral)}')
+    print(f'{porcent2:.0f}% de redução:  \t{diminuir(valor, porcent2, geral)}')
+    print('-' * 27)
