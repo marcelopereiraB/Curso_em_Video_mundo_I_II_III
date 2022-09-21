@@ -1,9 +1,9 @@
 lanches = ('Hamburgues', 'Suco', 'Pizza', 'Pudim', 'MilkShake')
-#1
+#tamplate
 for c in lanches:
     print(f'eu como {c}')
 
-#1.2
+#tamplate.2
 for c in lanches:
     if c == lanches[1] or c == lanches[4]:
         print(f'eu vou tomar {c}')

@@ -1,4 +1,4 @@
-#maneira 1
+#maneira tamplate
 '''import math
 n1 = int(input('digite um numero para fatorar: '))
 while n1 > 0:

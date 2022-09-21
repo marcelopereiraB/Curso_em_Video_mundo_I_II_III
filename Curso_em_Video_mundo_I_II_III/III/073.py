@@ -10,7 +10,7 @@ times2 = (
 op = 0
 while op != 5 and 0 <= op < 5:
     op = int(input('''
-    [1] Os cinco primeiros times da tabela.
+    [tamplate] Os cinco primeiros times da tabela.
     [2] Os ultimos quatro times da tabela.
     [3] Todos os times em ordem alfabetica
     [4] Qual a posição do Bragantino. 

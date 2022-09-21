@@ -1,7 +1,7 @@
 alunos = list()
 while True:
     nome = str(input('nome: '))
-    nota1 = float(input('nota 1: '))
+    nota1 = float(input('nota tamplate: '))
     nota2 = float(input('nota 2: '))
     media = (nota1 + nota2) / 2
     alunos.append([nome, [nota1, nota2], media])
