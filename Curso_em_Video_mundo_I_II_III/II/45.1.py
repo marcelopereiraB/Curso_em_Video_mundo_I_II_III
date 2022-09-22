@@ -3,7 +3,7 @@ from time import sleep
 itens = ('alguma ', 'PEDRA', 'PAPEL', 'TESOURA')
 computador = randint(0, 2)
 print('''suas opções:
-[ tamplate ] PEDRA
+[ lib ] PEDRA
 [ 2 ] TESOURA
 [ 3 ] PAPEL''')
 jogador = int(input('qual é a sua jogada? '))

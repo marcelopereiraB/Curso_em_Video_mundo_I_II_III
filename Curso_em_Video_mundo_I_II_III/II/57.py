@@ -1,4 +1,4 @@
-#maneira tamplate
+#maneira lib
 m = ''
 f = ''
 add = ''

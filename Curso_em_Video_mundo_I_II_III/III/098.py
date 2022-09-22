@@ -17,7 +17,7 @@ def contador(inicio, fim, passo):
 
 
 lin()
-print('Contagem de tamplate até 10 de tamplate em tamplate')
+print('Contagem de lib até 10 de lib em lib')
 contador(1, 11, 1)
 lin()
 print('contagem de 10 até 0 de 2 em 2')

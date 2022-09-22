@@ -1,12 +1,12 @@
 print('{:=^40}'.format('lojas celin'))
 pag1 = float(input('Qual é o valor a ser pago? '))
 pag2 = str(input('''condiçoes de pagamento
-dinheiro/cheque      - [tamplate] 
+dinheiro/cheque      - [lib] 
 a vista no cartão    - [2]
 em até 2x no cartão  - [3]
 3x ou mais no cartão - [4] 
 selecione: '''))
-if pag2 in 'tamplate':
+if pag2 in 'lib':
     print('o valor pago em dinheiro ou cheque é R${:.2f}'.format(pag1 - (pag1 * 10/100)))
 elif pag2 in '2':
     print('o valor a vista no cartão fica R${:.2f}'.format(pag1 - (pag1 * 5/100)))

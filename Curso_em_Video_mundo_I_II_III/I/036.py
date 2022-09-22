@@ -5,7 +5,7 @@ if carro <= 5:
 else:
     print('seu carro é velho em kkkkkk')
 print('--fim--'.center(35))
-#exemplo tamplate
+#exemplo lib
 nome = str(input('Qual é seu nome? ')).upper().strip()
 if nome == 'GUSTAVO':
     print('seu nome é sim {}, boa tarde meu amor'.format(nome))
@@ -13,7 +13,7 @@ else:
     print('nem te conheço, seu fudido')
 print('fim'.center(25))
 #exemplo 2
-n1 = float(input('nota tamplate: '))
+n1 = float(input('nota lib: '))
 n2 = float(input('nota 2: '))
 n3 = float(input('nota 3: '))
 n4 = float(input('nota 4: '))

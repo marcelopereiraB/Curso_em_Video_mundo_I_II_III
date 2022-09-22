@@ -1,4 +1,4 @@
-# maneira tamplate
+# maneira lib
 import random
 m = random.randint(1, 10)
 c = 0

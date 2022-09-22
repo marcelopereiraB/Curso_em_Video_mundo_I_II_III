@@ -1,4 +1,4 @@
-'''for c in range(tamplate, 10):
+'''for c in range(lib, 10):
     print(c)
 print('fim')'''
 '''limite = 0
@@ -14,7 +14,7 @@ n = 1
         print('pode continuar')
     if n == 0:
         print('vc fez merda o p´rograma acabou')
-n = tamplate
+n = lib
 while n != 0:
     n = int(input('digite um numero: '))
 print('fim')'''
@@ -35,7 +35,7 @@ while maxime < 500:
     if maxime >= 500:
         print('todos os convidados estão na festa!')'''
 
-'''n = tamplate
+'''n = lib
 while n != 0:
     n = int(input('dgite um valor: '))
     if n % 2 == 0:

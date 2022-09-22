@@ -3,7 +3,7 @@ n2 = int(input('digite seu segundo valor: '))
 v = 0
 while v != 5:
     v = int(input('''
-    [tamplate] somar
+    [lib] somar
     [2] multiplicar
     [3] maior
     [4] novos números

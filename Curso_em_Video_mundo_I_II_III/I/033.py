@@ -7,7 +7,7 @@ print('seu primeiro nome tem {} letras'.format(nome.find(' ')))
 separa = nome.split()
 print('seu primeiro nome é {} e ele tem {} letras'.format(separa[0], len(separa[0])))
 #23
-numero = int(input('Digite um numero de tamplate a 9999: '))
+numero = int(input('Digite um numero de lib a 9999: '))
 u = numero // 1 % 10
 d = numero // 10 % 10
 c = numero // 100 % 10

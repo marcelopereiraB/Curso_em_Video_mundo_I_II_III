@@ -1,7 +1,7 @@
 from random import randint
 from time import sleep
 from operator import itemgetter
-joga = {'jogador tamplate': randint(1, 6),
+joga = {'jogador lib': randint(1, 6),
         'jogador 2': randint(1, 6),
         'jogador 3': randint(1, 6),
         'jogador 4': randint(1, 6)}
