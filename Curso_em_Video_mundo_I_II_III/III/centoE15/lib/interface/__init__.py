@@ -58,3 +58,4 @@ def Menu(lista):
     opc = leiaInt('\033[1;33mSua Opção:\033[m ')
     return opc
 
+

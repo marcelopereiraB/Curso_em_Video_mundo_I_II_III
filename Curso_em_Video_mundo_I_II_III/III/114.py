@@ -7,4 +7,4 @@ except urllib.error.URLError:
     print('O site pudim não esta acessivel no momento!')
 else:
     print('Consegui acessar o site pudim com sucesso!')
-    print(site.read()) # le o htl da pagita
+    print(site.read()) # le o htl da pagitah

@@ -43,6 +43,7 @@ def linha(msg):
     print('-' * tam)
 
 
+
 def resumo(valor, porcent1, porcent2, geral=False):
     linha('RESUMO DO VALOR')
     print(f'Dobro do preço:  \t{dobro(valor, geral)}')

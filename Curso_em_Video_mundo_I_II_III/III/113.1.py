@@ -15,3 +15,4 @@ else: # deu certo
     print(f'O resultado é {r:.1f}')
 finally: # certo/falho
     print('volte sempre! Muito obrigado!')
+

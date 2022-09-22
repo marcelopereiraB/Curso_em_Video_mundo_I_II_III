@@ -8,3 +8,4 @@ print(f'diminuindo {por}% de {moeda.moeda(valor)} o valor fica {moeda.diminuir(v
 print(f'aumentando {por2}% de {moeda.moeda(valor)} o valor fica {moeda.aumentar(valor, por2, True)} ')
 print(f'o dobro de {moeda.moeda(valor)} é {moeda.dobro(valor, True)} ')
 print(f'a metade de {moeda.moeda(valor)} é {moeda.metade(valor, True)} ')
+
