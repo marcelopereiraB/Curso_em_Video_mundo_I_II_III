@@ -45,3 +45,5 @@ for c in range(0, 3):
 for e in brasi:
     for k, v in e.items():
         print(f'O campo {k} tem valor {v}')
+
+# a diferença entre lista e tuplas de dicionarios é que nas duas usamos indices ja no sicionario usamos keys e valuers

@@ -4,7 +4,7 @@ bebe = list()
 bebe = ['bebe1', 19, 'bebe3', 'bebe4', 10]
 dados.append('pedro')
 dados.insert(1, 'gabriel')
-dados.append('marcelo')
+dados.append(' marcelo')
 pessoas.append(dados[:]) # copia considerando todos os elementos de uma lista na posição zero.
 pessoas.append(bebe[:])
 print(pessoas)

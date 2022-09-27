@@ -3,7 +3,7 @@ tu = (int(input('insira um numero: ')), int(input('insita um numero: ')), int(in
 print(tu)
 
 def funcao():
-    return int(input('insira um numero: '))
+    return int(input('insira um numero:  '))
 
 
 tupla = (funcao(), funcao(), funcao(), funcao())

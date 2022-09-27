@@ -1,6 +1,6 @@
 from random import randint
 
-v = (randint(0, 10), randint(0, 10), randint(0, 10), randint(0, 10))
+v = (randint(0,  10), randint(0, 10), randint(0, 10), randint(0, 10))
 print(f'Os numeros sorteados foram: {v}')
 menor = maior = 0
 while True:

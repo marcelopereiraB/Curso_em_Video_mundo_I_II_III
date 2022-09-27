@@ -5,7 +5,7 @@ times = (
 'fortaleza')
 times2 = (
 'palmeiras', 'athetico-PR', 'atletico-MG', 'corinthians', 'internacional', 'fluminense', 'são paulo', 'flamengo', 'botafogo',
-'santos', 'avai', 'coritiba', 'america-MG', 'bragantino', 'ceara SD', 'atletico-GO', 'goias', 'cuiaba', 'juventude',
+'santos', 'avai ', 'coritiba', 'america-MG', 'bragantino', 'ceara SD', 'atletico-GO', 'goias', 'cuiaba', 'juventude',
 'fortaleza')
 op = 0
 while op != 5 and 0 <= op < 5:
